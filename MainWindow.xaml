@@ -1,0 +1,180 @@
+﻿<Window x:Class="魔法少女音街ウナ解説書.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="魔法少女音街ウナ解説書" Height="350" Width="400">
+	<Expander Header="root">
+	<StackPanel Margin="10">
+		<Expander Header="AI">
+			<StackPanel Margin="10">
+				<Expander Header="V1.0">
+					<StackPanel Margin="10">
+						<Button Content="About_V1.0" Click="About_V1_0"/>
+						<Button Content="フェールセーフ" Click="フェールセーフ"/>
+					</StackPanel>
+				</Expander>
+				<Expander Header="V2.0">
+					<StackPanel Margin="10">
+						<Button Content="About_V2.0" Click="About_V2_0"/>
+						<Button Content="ツクヨミ" Click="ツクヨミ"/>
+					</StackPanel>
+				</Expander>
+			</StackPanel>
+		</Expander>
+
+		<Expander Header="Economy">
+			<StackPanel Margin="10">
+				<Expander Header="industry-classification">
+					<StackPanel>
+						<Expander Header="人財商取引界隈">
+							<StackPanel Margin="10">
+								<Button Content="モンスター教孤児院" Click="モンスター教孤児院"/>
+								<Button Content="労働者" Click="労働者"/>
+								<Button Content="労働者ギルド" Click="労働者ギルド"/>
+								<Button Content="人財取引関係図" Click="人財取引関係図"/>
+								<Button Content="孤児" Click="孤児"/>
+								<Button Content="魔法少女" Click="魔法少女"/>
+								<Button Content="魔法少女ギルド" Click="魔法少女ギルド"/>
+							</StackPanel>
+						</Expander>
+						<Expander Header="宗教商取引界隈">
+							<StackPanel>
+								<Expander Header="空飛ぶうどんモンスター教">
+									<StackPanel Margin="10">
+										<Button Content="教義" Click="教義"/>
+									</StackPanel>
+								</Expander>
+								<Button Content="宗教取引関係図" Click="宗教取引関係図"/>
+							</StackPanel>
+						</Expander>
+						<Expander Header="工芸品商取引界隈">
+							<StackPanel Margin="10">
+								<Button Content="工芸品取引関係図" Click="工芸品取引関係図"/>
+							</StackPanel>
+						</Expander>
+						<Expander Header="知恵商取引界隈">
+							<StackPanel Margin="10">
+								<Button Content="GF学者" Click="GF学者"/>
+								<Button Content="魔法少女学者" Click="魔法少女学者"/>
+							</StackPanel>
+						</Expander>
+					</StackPanel>
+				</Expander>
+				<Button Content="economic_theory" Click="economic_theory"/>
+			</StackPanel>
+		</Expander>
+
+		<Expander Header="Human">
+			<StackPanel Margin="10">
+				<Expander Header="Species">
+					<StackPanel Margin="10">
+						<Expander Header="dvelg">
+							<StackPanel Margin="10">
+								<Expander Header="Ethnicity">
+									<StackPanel Margin="10">
+										<Button Content="craftドヴェルグ" Click="craftドヴェルグ"/>
+										<Button Content="smisドヴェルグ" Click="smisドヴェルグ"/>
+									</StackPanel>
+								</Expander>
+							</StackPanel>
+						</Expander>
+						<Expander Header="god">
+							<StackPanel Margin="10">
+								<Expander Header="Ethnicity">
+									<StackPanel Margin="10">
+										<Button Content="創造神" Click="創造神"/>
+										<Button Content="守護神" Click="守護神"/>
+										<Button Content="愛の神" Click="愛の神"/>
+										<Button Content="戦神" Click="戦神"/>
+										<Button Content="死神" Click="死神"/>
+										<Button Content="知恵の神" Click="知恵の神"/>
+										<Button Content="自然神" Click="自然神"/>
+										<Button Content="豊穣神" Click="豊穣神"/>
+									</StackPanel>
+								</Expander>
+							</StackPanel>
+						</Expander>
+						<Expander Header="homus">
+							<StackPanel Margin="10">
+								<Expander Header="Ethnicity">
+									<StackPanel Margin="10">
+										<Expander Header="unity-homus">
+											<StackPanel Margin="10">
+												<Button Content="ウノー" Click="ウノー"/>
+												<Button Content="サノー" Click="サノー"/>
+												<Button Content="ルブラン" Click="ルブラン"/>
+												<Button Content="克人" Click="克人"/>
+												<Button Content="希実" Click="希実"/>
+												<Button Content="潤" Click="潤"/>
+												<Button Content="空" Click="空"/>
+												<Button Content="音街ウナ" Click="音街ウナ"/>
+											</StackPanel>
+										</Expander>
+										<Expander Header="unreal-homus">
+											<StackPanel Margin="10">
+												<Button Content="キリスト" Click="キリスト"/>
+												<Button Content="ナポレオン" Click="ナポレオン"/>
+												<Button Content="ヒトラー" Click="ヒトラー"/>
+												<Button Content="概要" Click="概要"/>
+											</StackPanel>
+										</Expander>
+									</StackPanel>
+								</Expander>
+							</StackPanel>
+						</Expander>
+					</StackPanel>
+				</Expander>
+			</StackPanel>
+		</Expander>
+
+		<Expander Header="Joker">
+			<StackPanel Margin="10">
+				<Button Content="Joker_About" Click="Joker_About"/>
+				<Button Content="寝そべり族" Click="寝そべり族"/>
+				<Button Content="無敵の男の人" Click="無敵の男の人"/>
+			</StackPanel>
+		</Expander>
+
+		<Expander Header="空飛ぶうどんモンスター教">
+			<StackPanel Margin="10">
+				<Expander Header="役職や階級">
+					<StackPanel Margin="10">
+						<Button Content="助祭" Click="助祭"/>
+						<Button Content="司教" Click="司教"/>
+						<Button Content="司祭" Click="司祭"/>
+						<Button Content="大司教" Click="大司教"/>
+						<Button Content="教皇" Click="教皇"/>
+						<Button Content="枢機卿" Click="枢機卿"/>
+					</StackPanel>
+				</Expander>
+				<Expander Header="本部や支部">
+					<StackPanel Margin="10">
+						<Button Content="アトランティス本部" Click="アトランティス本部"/>
+						<Button Content="クル支部" Click="クル支部"/>
+					</StackPanel>
+				</Expander>
+			</StackPanel>
+		</Expander>
+
+		<Expander Header="軍需物資">
+			<StackPanel Margin="10">
+				<Expander Header="OS">
+					<StackPanel>
+						<Button Content="ドヴェルグOS" Click="ドヴェルグOS"/>
+					</StackPanel>
+				</Expander>
+				<Expander Header="Script">
+					<StackPanel>
+						<Button Content="時空メス" Click="時空メス"/>
+					</StackPanel>
+				</Expander>
+				<Expander Header="手持ち武器">
+					<StackPanel>
+						<Button Content="オーガベイン" Click="オーガベイン"/>
+						<Button Content="フレイブレイド" Click="フレイブレイド"/>
+					</StackPanel>
+				</Expander>
+			</StackPanel>
+		</Expander>
+	</StackPanel>
+	</Expander>
+</Window>
